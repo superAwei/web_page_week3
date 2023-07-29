@@ -1,0 +1,88 @@
+
+
+.d-flex{
+    display: flex;
+    
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+// 寬度
+.mx-100{
+    max-width: 100%;
+}
+
+// 間距
+.p-12{
+    padding: 12px;
+}
+
+.p-32{
+    padding: 32px 0px;
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+.mr-48{
+    margin-right: 48px;
+}
+
+.mr-32{
+    margin-right: 32px;
+}
+.mr-64{
+    margin-right: 64px;
+}
+
+.mr-md-0{
+    @media(max-width:768px){
+        margin-right: 0;
+    }
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+//文字大小
+.f-s{
+    font-size: 14px;
+}
+
+.f-m{
+    font-size: 20px;
+}
+
+.f-ml{
+    font-size: 24px;
+}
+
+.f-l{
+    font-size: 36px;
+}
+
+.f-xl{
+    font-size: 48px;
+}
+
+// 顏色
+.bg-primary{
+    background-color: #AA0601;
+    color:#FFFFFF;
+}

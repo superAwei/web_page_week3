@@ -1,0 +1,63 @@
+// header
+.logo{
+    display: inline-block;
+    width: 80px;
+    height: 49px;
+    background-image: url('../img/logo-new_工作區域\ 1@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent:101%;
+    overflow:hidden;
+    white-space:nowrap;
+    @media (max-width: 768px) {
+        margin: 0 0 16px 16px;
+      }
+}
+
+
+.navbar-wrap{
+    @media(max-width: 768px){
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }
+}
+
+
+
+//main
+.main{
+    .title{
+        border-left: 8px solid #9F1213;
+        padding-left: 16px;
+        margin-top: 96px;
+        margin-bottom: 32px;
+    }
+    .select_area{
+        width: 304px;
+        height: 38px;
+        border: 1px solid #CED4DA;
+    }
+}
+//footer
+.footer{
+    padding-top: 48px;
+    .social_media{
+        .icon{
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            opacity: 0.8;
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    .contact{
+        border-bottom: 1px solid #ffff;
+        span{
+            width: 36px;
+            height: 36px;
+        }
+    }
+}

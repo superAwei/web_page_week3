@@ -1,0 +1,62 @@
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+     /* 左右 padding */
+    padding: 0 12px;
+    @media  (max-width: 768px) {
+        .container{
+            max-width: 720px; /* (696 + 24 gutter) */
+        }
+    }
+    @media  (max-width: 375px) {
+        .container{
+            max-width: 372px; /* (348 + 24 gutter) */
+        }
+    }
+}
+
+
+.row{
+    margin-left: -12px;
+    margin-right: -12px;
+    display: flex;
+}
+
+
+//1除12等分
+.col-1{
+    width: 8.333%;
+}
+
+//2除12等分
+.col-2{
+    width: 16.666%;
+}
+
+//3除12等分
+.col-3{
+    width: 25%;
+}
+
+//4除12等分
+.col-4{
+    width: 33.333%;
+}
+
+//5除12等分
+.col-5{
+    width: 41.666%;
+}
+
+//6除12等分
+.col-5{
+    width: 50%;
+}
+
+
+// flex斷點設計
+@media (max-width:768px){
+    .flex-direction-md-column{
+        flex-direction: column;
+    }
+}
